@@ -56,12 +56,16 @@ button {
 .header-container {
   display: flex;
 }
-menu {
+.menu {
+  display: flex;
 }
 menu-link,
 menu-item {
   font-weight: 500;
   color: #2e2f42;
+}
+.adress-list {
+  display: flex;
 }
 .menu-link:focus,
 .menu-link:hover {
