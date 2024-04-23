@@ -58,6 +58,7 @@ button {
 }
 .menu {
   display: flex;
+  gap: 40px;
 }
 menu-link,
 menu-item {
@@ -66,13 +67,12 @@ menu-item {
 }
 .adress-list {
   display: flex;
+  font-style: normal;
+  margin-left: auto;
 }
 .menu-link:focus,
 .menu-link:hover {
   color: #404bbf;
-}
-.adress-list {
-  font-style: normal;
 }
 .adress-item {
   font-weight: 400;
