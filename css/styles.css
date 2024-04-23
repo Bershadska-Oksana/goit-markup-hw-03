@@ -45,6 +45,11 @@ button {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 menu {
 }
 menu-link,
