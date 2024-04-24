@@ -20,7 +20,19 @@ a {
 button {
   cursor: pointer;
 }
-
+img {
+  display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 /* ======== HEADER  STYLES ======== */
 
 .nav-page {
@@ -29,6 +41,7 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
   display: flex;
+  align-items: center;
 }
 .logo-part {
   font-family: "Raleway", sans-serif;
@@ -47,6 +60,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .container {
   width: 1158px;
@@ -55,12 +69,21 @@ button {
 }
 .header-container {
   display: flex;
+  align-items: center;
 }
 .menu {
   display: flex;
   gap: 40px;
 }
-menu-link,
+.menu-link {
+  font-weight: 500;
+  color: #2e2f42;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 24px 0;
+  display: block;
+}
 menu-item {
   font-weight: 500;
   color: #2e2f42;
@@ -84,10 +107,14 @@ menu-item {
 .adress-item:focus {
   color: #404bbf;
 }
-/* ======== HERO  STYLES ======== */
+/* ======== HERO STYLES ======== */
 .hero-part {
   background: #2e2f42;
   line-height: 1.07;
+  max-width: 1440px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .text-at-hero {
   font-weight: 700;
@@ -96,6 +123,12 @@ menu-item {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  margin-bottom: 48px;
+}
+.hero-container {
+  padding-top: 188px;
+  padding-bottom: 292px;
 }
 .buttom-hero {
   background: #4d5ae5;
@@ -108,7 +141,8 @@ menu-item {
 .buttom-hero:hover {
   background-color: #404bbf;
 }
-top-header {
+.top-header {
+  border-bottom: 1px solid #e7e9fc;
 }
 /* ======== BENEFITS STYLES ======== */
 
