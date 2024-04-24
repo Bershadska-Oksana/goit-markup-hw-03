@@ -157,9 +157,8 @@ menu-item {
 .benefits {
   padding: 120px 0;
 }
-.benefits-title .visually-hidden {
-  position: fixed;
-  transform: scale(0);
+.benefits-title {
+  visually: hidden;
 }
 
 .benefits-list {
@@ -249,6 +248,7 @@ menu-item {
   column-gap: 24px;
   row-gap: 48px;
 }
+
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
 }
