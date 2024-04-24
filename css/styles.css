@@ -98,6 +98,7 @@ menu-item {
   display: flex;
   font-style: normal;
   margin-left: auto;
+  gap: 40px;
 }
 .menu-link:focus,
 .menu-link:hover {
@@ -121,6 +122,7 @@ menu-item {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
+  padding: 188px 0;
 }
 .text-at-hero {
   font-weight: 700;
@@ -155,8 +157,9 @@ menu-item {
 .benefits {
   padding: 120px 0;
 }
-.benefits-title {
-  visibility: hidden;
+.benefits-title .visually-hidden {
+  position: fixed;
+  transform: scale(0);
 }
 
 .benefits-list {
@@ -164,15 +167,23 @@ menu-item {
   gap: 24px;
 }
 .benefits-list-item {
+  width: calc((100% - 72px) / 4);
 }
 
-.team-name,
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
 .benefits-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .team-text,
 .benefits-text {
