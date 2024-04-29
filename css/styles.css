@@ -66,13 +66,14 @@ p {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
-  padding: 188px 0;
+  padding: 24px 0;
 }
 .container {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
+
 .header-container {
   display: flex;
   align-items: center;
@@ -132,18 +133,18 @@ menu-item {
   text-align: center;
   color: #fff;
   max-width: 496px;
+  margin: 0 auto;
   margin-bottom: 48px;
 }
-.hero-container {
-  padding-top: 188px;
-  padding-bottom: 292px;
-}
+
 .buttom-hero {
   background: #4d5ae5;
   font-weight: 500;
   letter-spacing: 0.04em;
   line-height: 1.5;
   color: #ffffff;
+  display: block;
+  margin: 0 auto;
 }
 .buttom-hero:focus,
 .buttom-hero:hover {
@@ -215,7 +216,6 @@ menu-item {
   margin-bottom: 72px;
 }
 .team-list {
-  background-color: #ffffff;
   display: flex;
   gap: 24px;
 }
@@ -304,4 +304,26 @@ menu-item {
 }
 .logo-part-footer {
   color: #f4f4fd;
+}
+.social-media {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.social-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 16px;
+}
+.sm-container {
+}
+
+.social-link-list {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #4d5ae5;
 }
